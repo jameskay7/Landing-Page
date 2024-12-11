@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Times New Roman';
+    overflow: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1f2937;
+}
+
+.logo a{
+    color: #F9FAF8;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.nav-links a{
+    font-family: 'Roboto', 'Times New Roman';
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+#firstsection{
+    padding: 50px;
+    height: 300px;
+    background-color: #1f2937;
+    color: #F9FAF8
+}
+
+#firstsection h1{
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+#firstsection p{
+    font-size: 18px;
+    margin: auto;
+}
+
+
+#firstsection button{
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.img-placeholder{
+    display: flex;
+   
+    border: 1px solid white;
+    width: 400px;
+}
+
+/*.img-placeholder{
+    display: flex;
+    margin-left: 550px;
+    padding-top: auto;
+    background-color: grey ;
+    border: 1px solid white;
+}
+*/
+
+#secondsection {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#secondsection h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px ;
+}
+
+.square-containers{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.square{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.info{
+    margin: auto;
+}
+
+.info .text{
+    color: grey;
+}
+
+#thirdsection{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#thirdsection .thorquote{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    
+}
+
+footer .footerdiv{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #3882f6;
+    background-color: #3882f6;
+    color: white;
+    width:700px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+
+.signupbtn{
+    width: 90px;
+    border-radius: 15px;
+    margin-left: 5px;
+    background-color: #3882F6;
+    color: white;
+    border-color: whitesmoke;
+}
+
